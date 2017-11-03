@@ -1,3 +1,3 @@
-var math = require('./modules/math');
+import {sum} from './modules/math';
 
-console.log('3 + 4 = ', math.sum(3+4));
+console.log('3 + 4 = ', sum(3,4));

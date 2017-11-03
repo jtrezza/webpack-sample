@@ -1,0 +1,26 @@
+{
+  "name": "webpack-sample",
+  "version": "1.0.0",
+  "description": "Webpack bundling sample project",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --config webpack.config04.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtrezza/webpack-sample.git"
+  },
+  "author": "José Trezza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtrezza/webpack-sample/issues"
+  },
+  "homepage": "https://github.com/jtrezza/webpack-sample#readme",
+  "devDependencies": {
+    "handlebars-loader": "^1.6.0",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  }
+}
